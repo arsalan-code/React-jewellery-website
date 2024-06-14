@@ -1,0 +1,47 @@
+.search-bar
+{
+    position: relative;
+    max-width: 40%;
+    display: block;
+    margin: 2rem auto;
+}
+
+.search-bar input
+{
+    width: 100%;
+    padding: 6px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    border: 1px solid rgb(232, 228, 228);
+    margin-top: 2px;
+
+}
+.search-bar .icon-send
+{
+    position: absolute;
+    right: -2.2rem;
+    top: 0.1rem;
+    width: 40px;
+    height: 37px;
+    background-color: rgb(174, 107, 0);
+    outline: none;
+    border: none;
+}
+
+::placeholder {
+    
+    padding: 10px;
+    
+  }
+
+.search-bar .fa
+{
+    color: white;
+    text-align: center;
+    align-items: center;
+    line-height: 37px;
+}
+
+
+

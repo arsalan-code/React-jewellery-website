@@ -1,0 +1,104 @@
+/* CSS reset  */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+
+.nav-item .nav-link
+{
+    margin: 0 1rem;
+    color: black;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.logo
+{
+ margin: 0 10px;
+}
+
+.logo  .fa
+{
+    margin: 0 1rem;
+    font-size: 2.1rem;
+    color: black;
+   
+}
+.logo span
+{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    color: black;
+}
+
+ 
+.navbar-toggler 
+{
+    
+    border: none !important;
+    box-shadow: none;
+    
+}
+
+form .fas
+{
+    margin-top: 16px;
+    font-size: 13px;
+}
+
+ .navbar
+ {
+     position: fixed;
+     top: 0;
+     left: 0;
+     background-color: white;
+     z-index: 999;
+     width: 100%;
+ }
+
+ .btn-left
+ {
+    padding: 1px 18px;
+
+    
+ }
+ .search-role
+ {
+    position: relative;
+ }
+
+ .search-role .inner-form
+ {
+     /* display: none; */
+     position: absolute;
+     top: 55px;  
+      
+ }
+ .inner-form input
+{
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    
+}
+.inner-form input:focus
+{
+    border: 1px solid black;
+}
+
+.inner-form 
+{
+   opacity: 0;
+   
+   
+}
+
+.search-role:hover .inner-form
+{
+    opacity: 1;
+    z-index: 999;
+}

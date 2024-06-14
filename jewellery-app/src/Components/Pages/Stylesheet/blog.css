@@ -1,0 +1,55 @@
+ .blog-list
+ {
+    
+    margin: 8% 0;
+    display: flex; 
+     background-color: #a07936 !important;
+    padding: 15px 0; 
+    
+ }
+
+ .blog-list .navItems
+ {
+    margin: 0 0.8rem;
+ }
+
+ .blog-list a
+ {
+    text-decoration: none;
+   color: white !important;
+    font-weight: 600;
+ }
+ .inner-glogs img
+ {
+   max-width: 90%;
+   width: 100%;
+   height: 70vh;
+    
+   
+
+ }
+
+ .inner-glogs p
+ {
+   max-width: 92%;
+   width: 100%;
+   margin-top: 20px;
+   font-size: 14px;
+ }
+
+ .inner-glogs
+ {
+   max-width: 95%;
+   width: 100%;
+   margin: auto;
+
+ }
+    .inner-date h3
+    {
+      color:  #a07936;;
+      letter-spacing: 1px;
+      margin: 20px 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+ 

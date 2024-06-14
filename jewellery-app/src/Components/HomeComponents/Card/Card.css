@@ -1,0 +1,57 @@
+.product-list
+{
+    margin-top: 2%;
+    
+}
+
+.product-list img
+
+{
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: auto;
+} 
+
+.wrapper-img
+{
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.20) 0px 1px 6px;
+}
+
+.content-3 span
+{
+    color: rgb(165, 84, 18);
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.content-3
+{
+  margin: 0 10px;
+}
+
+.product-list .sale
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    clip-path: circle();
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(165, 84, 18);
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+}
+
+.product-list .sale .disc
+{
+    color: white;
+    font-size: 1rem;
+}
+
+ 
+ 

@@ -1,0 +1,140 @@
+ 
+.carousel-caption h5
+{
+    font-size: 2.7rem;
+    font-weight: 100;
+    margin-bottom: 15px;
+} 
+
+.carousel-caption
+{
+    color: black;
+    margin-bottom: 12rem;
+   
+}
+
+.carousel-caption .btn-4
+{
+    width: 210px;
+    border-radius: 10px;
+    padding: 12px 0;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+}
+
+.carousel-caption p
+{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 10px 0;
+ 
+}
+
+.carousel-caption .banner-img
+{
+   
+    margin: 5% 0;
+
+   
+}
+.banner-img .span-text
+{
+    display: block;
+   font-size: 2.4rem;
+   font-weight: 100;
+   letter-spacing: 1px;
+}
+ /* <...............media query...........> */
+
+ @media (min-width: 650px) and (max-width: 900px) {
+    .carousel-caption img
+    {
+     width: 40%;   
+      
+    }
+    .carousel-caption 
+    {
+      position: absolute;
+      top: 70px;
+      
+    }
+    .carousel-caption p
+    {
+      max-width: 80%;
+      font-size: 12px !important;
+      width: 100%;
+      margin: 10px auto;
+      
+    }
+    .carousel-caption .btn-4 
+    {
+      font-size: 12px;
+      width: 110px !important;
+      margin-top: -1px !important;
+      
+    }
+    .carousel-caption h5
+    {
+       
+       font-size: 20px !important;
+      
+    }
+
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+
+    .carousel-caption
+    {
+        position: absolute;
+        top: 70px;
+        
+    }
+
+    .carousel-caption h5
+{
+   
+   font-size: 50px !important;
+  
+}
+    .carousel-caption img
+{
+   
+   font-size: 40px !important;
+   width: 60%;
+  
+}
+
+}
+
+@media(max-width: 650px) {
+        .carousel-caption
+        {
+            display: none !important;
+        }
+}
+
+@media (min-width: 750px) and (max-width: 900px) {
+
+.carousel-caption .btn-4
+{
+margin-top: 10px !important;
+font-size:14px ;
+width: 150px !important;
+}
+.carousel-caption p
+{
+    max-width: 90%;
+    font-size: 14px !important;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.carousel-caption h5
+{
+    font-size: 50px !important;
+}
+
+ 
+}

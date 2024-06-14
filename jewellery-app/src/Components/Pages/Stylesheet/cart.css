@@ -1,0 +1,30 @@
+ .shopping-cart h3
+ {
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 55px;
+   
+ }
+
+
+ .shopping-cart .cart-bg
+
+ {
+    background-color: rgb(215, 204, 204);
+    height: 45px;
+     
+    
+ }
+
+ .shopping-cart h3
+ {
+    font-size: 13px;
+ }
+
+ .shopping-cart h4
+ {
+      border: 1px solid rgb(231, 229, 229);
+      padding: 12px;
+      text-transform: capitalize;
+      font-size: 15px;
+ }

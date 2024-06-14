@@ -1,0 +1,102 @@
+.form-section .conatiner h2 {
+    text-align: center;
+    color: red;
+}
+
+.form-section .conatiner {
+    border: 2px solid red;
+    display: block;
+    max-width: 40%;
+    margin: 8rem auto;
+    border-radius: 10px;
+}
+
+.form-section .SingForm {
+    padding: 0px 9rem;
+}
+
+.form-section .SingForm label {
+    display: block;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding: 5px 0px;
+    font-weight: 700;
+}
+
+.form-section .SingForm input {
+    max-width: 100%;
+    width: 100%;
+    padding: 4px 0px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.form-section button {
+    margin: 1rem auto;
+    display: block;
+    padding: 5px 20px;
+    border: none;
+    border: 1px solid red;
+    border-radius: 5px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.form-section  p {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+
+.form-section.profile {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    height: 400px;
+    width: 220px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-section .pro-half {
+    width: 220px;
+    height: 100px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    background-color: #42a1f5;
+    position: relative;
+    border-radius: 5px;
+}
+
+.form-section .icons {
+
+    border-radius: 50%;
+    clip-path: circle();
+    width: 80px;   
+    height: 100px;
+    position: absolute;
+    left: 4.9rem;
+    bottom: -3rem;
+    background-color: #a442f5;
+    
+    
+}
+
+.form-section .icons-3
+{
+    /* font-size: 2rem; */
+    
+    margin: 0 0.6rem;
+    font-size: 4rem;
+    line-height: 100px;
+    color: white;
+    clip-path: circle();
+    
+
+  
+}
+ .form-section .pro-pa
+ {
+    font-weight: 900;
+    margin: 2.6rem;
+ }

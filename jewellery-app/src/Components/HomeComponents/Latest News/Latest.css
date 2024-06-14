@@ -1,0 +1,89 @@
+.Latest h4
+{
+    color: rgb(214, 125, 57);
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.Latest .icons-icons
+{
+   
+    width: 35%;
+    color: grey;
+    line-height: 0;
+}
+.Latest span
+{
+    
+    margin: 0 0.6rem;
+}
+.Latest .fa
+{
+    font-size: 14px;
+}
+
+.Latest p
+{
+   
+    margin-top: 0.7rem;
+    font-size: 14px;
+}
+
+.Latest .date_inner
+{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    color: #a07936;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 90px;
+    height: 90px;
+    padding: 0;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    border-radius: 20px;
+}
+
+.Latest .date_inner small
+{
+    background: #a07936;
+    font-family: 'Belleza', sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 8px 0;
+    display: block;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.Latest .date_inner p
+{
+    text-align: center;
+    color: #202020;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 35px;
+    line-height: 57px;
+}
+
+@media(min-width:350px) and (max-width:767px)
+{
+    .date_inner
+    {
+        margin: 15px 0 !important;
+    }
+}
+@media(min-width:768px) and (max-width:992px)
+{
+    .icons-icons
+    {
+        
+       width: 200px !important;
+        
+    }
+}
+

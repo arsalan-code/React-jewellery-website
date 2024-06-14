@@ -1,0 +1,124 @@
+
+.main-section {
+    height: 9vh;
+    width: 100%;
+    position: relative;
+    top: 4rem;
+    background-color: #f2e4cc;
+    ;
+}
+.chaild-section {
+    padding: 0rem 5rem;
+}
+
+.chaild-section span {
+    margin-right: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* ...........create form..................... */
+.main-heading-6{
+    margin-top: 5.3rem;
+    margin-left: 4rem;
+}
+.form-section{
+    margin-left: 4rem;
+    margin-top: 0.5rem;
+}
+.form-form
+{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    width: 42%;
+    padding: 1rem 1rem;
+}
+.form-form input
+{
+    padding: 0.2rem 10rem;
+    border:  1px solid rgb(213, 212, 212);
+    background: white;
+    margin: 0.5rem 0;
+}
+.form-form button{
+    display: inline;
+    font-weight: 500;
+    margin: 0.8rem 5px;
+    border: 1px solid gray;
+    background: none;
+    color:grey;
+    border-radius: 1px;
+}
+/* ...........create form..................... */
+
+.edit-profile-section  {
+    margin:1rem 4.7rem; 
+    padding: 1.2rem 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+}
+
+.edit-profile-section p {
+    font-size: 0.9rem;
+    max-width: 50%;
+    width: 80%;
+    margin-top: 1rem;
+}
+.profile-account .fa {
+    font-size: 2.3rem;
+    color: gray;
+    margin-top: 0.4rem;
+    display: block;
+}
+.profile-account 
+{
+    display: flex;
+    justify-content:space-between;
+}
+
+.profile-account span:nth-child(2) {
+    display: block;
+    font-size: 0.8rem;
+}
+
+.profile-account span:nth-child(1) {
+    font-size: 1.2rem;
+}
+ 
+ .profile-account .user-edit button
+{
+    padding-left: 1rem;
+    background: none;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    color:#bf8b31;
+    font-weight: 500;
+    font-size: 1rem;
+}
+.profile-section  .btn 
+{
+    border:1px solid rgb(211, 209, 209);
+    outline:none;
+    margin: 1rem 0rem;
+    padding: 0.3rem 1.5rem;
+    font-size:0.9rem;
+    font-weight: 400;
+    color:gray;
+    letter-spacing: 1px;
+    background: none;
+    border-radius: 5px;
+}
+ .btn:hover
+{
+    background-color:#bf8b31;
+    color: white;
+}
+.add-heading
+{
+    margin: 1rem 4rem;
+
+}
+
+/* .add-row
+{
+    margin-top: -1rem;
+} */

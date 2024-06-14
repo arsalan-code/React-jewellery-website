@@ -1,0 +1,12 @@
+.feature-brands .card
+{
+    border: none;
+    outline: none;
+    margin: 0 0.5rem;
+}
+.feature-brands img
+{
+    width: 130px;
+    height: 40px;
+    /* object-fit: cover; */
+}

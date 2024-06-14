@@ -1,0 +1,66 @@
+.wrapping
+{
+    
+    margin-top: 4%;
+}
+
+.wrapping .card
+{
+    margin: 0 15px;
+    border: none;
+    height:280px;
+    background-color: rgb(245, 243, 243);
+    transition: 0.5s ease;
+}
+
+.hover2 img
+{
+   position: relative;
+}
+ 
+
+ .wrapping .content
+ {
+    /* margin-top: -4rem; */
+    position: absolute;
+    bottom: 20px;
+    left: 15%;
+    
+ }
+ 
+ .content h2
+ {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    font-size: 18px;
+ }
+ .content p
+ {
+    color: rgb(165, 84, 18);
+    font-weight: 400;
+    font-size: 0.9rem;
+ }
+
+ .popular-heading
+ {
+    margin-top: 4%;
+    
+ }
+ .popular-heading h3
+ {
+    font-weight: 500;
+    font-size: 1.4rem;
+ }
+
+ .wrapping .hover2 :hover
+ {
+    background-color: rgb(255, 234, 237);
+    transition: 0.5s ease;
+ }
+ 
+
+ 
+ 
+
+ 
